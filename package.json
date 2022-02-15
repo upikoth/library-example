@@ -1,0 +1,14 @@
+{
+  "name": "semantic-release",
+  "version": "0.0.0",
+  "description": "Trying to play with semantic-release lib",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Ivan Demin",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}

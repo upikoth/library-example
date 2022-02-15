@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "system",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "outFile": "dist/index.js",
+    "sourceMap": false
+  },
+  "files": ["src/index.ts"],
+}
