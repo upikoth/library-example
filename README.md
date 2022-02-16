@@ -10,11 +10,11 @@
 - добавляем файл .releaserc.json
 ```json
 {
-	"plugins": [
-		["@semantic-release/npm", {
-			"npmPublish": false
-		}]
-	]
+  "plugins": [
+    ["@semantic-release/npm", {
+      "npmPublish": false
+    }]
+  ]
 }
 ```
 
