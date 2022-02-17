@@ -65,11 +65,8 @@ npm i cz-conventional-changelog --save-dev
 ```json
 {
   "scripts": {
-  	...
     "commit": "cz",
-  	...
   },
-  ...
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
@@ -86,5 +83,17 @@ npm i cz-conventional-changelog --save-dev
 
 ```bash
 npm install --save-dev @commitlint/{cli,config-conventional}
+echo "module.exports = {extends: ['@commitlint/config-conventional']}" > commitlint.config.js
+
 npm install husky --save-dev
+npx husky install
+npx husky add .husky/commit-msg 'npx --no -- commitlint --edit "$1"'
+```
+
+- Еще раз правим package.json
+
+```json
+"scripts": {
+	"prepare": "husky install"
+},
 ```
