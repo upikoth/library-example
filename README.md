@@ -4,7 +4,7 @@
 
 - Запрещаем пуш в main. Settings -> Branches
 
-## Добавление semantic-release в проект на github
+## Добавление semantic-release в проект на github.
 
 [Ссылка на библиотеку](https://github.com/semantic-release/semantic-release)
 
