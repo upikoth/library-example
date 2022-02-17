@@ -1,3 +1,17 @@
+# [1.4.0](https://github.com/upikoth/library-example/compare/v1.3.1...v1.4.0) (2022-02-17)
+
+
+### Bug Fixes
+
+* fix 1 ([e4a493a](https://github.com/upikoth/library-example/commit/e4a493a3ab614b443b76c5d243f99e848c634d6a))
+* fix 2 ([0bca250](https://github.com/upikoth/library-example/commit/0bca2503c3744f7f7e031f806b69fc870e7dd2f9))
+* fix 3 ([9fbcf1d](https://github.com/upikoth/library-example/commit/9fbcf1d9d9e03437717f9e1aebc430a292aade40))
+
+
+### Features
+
+* feat 1 ([8ede517](https://github.com/upikoth/library-example/commit/8ede517d5cd33c3b9f90058248a441369c7e7aa0))
+
 ## [1.3.1](https://github.com/upikoth/library-example/compare/v1.3.0...v1.3.1) (2022-02-17)
 
 
