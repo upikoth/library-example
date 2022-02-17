@@ -2,7 +2,7 @@
 
 ## Настраиваем разрешения в github
 
-- Запрещаем пуш в main. Settings -> Branches
+- Запрещаем пуш в main. Settings -> Branches.
 
 ## Добавление semantic-release в проект на github
 
