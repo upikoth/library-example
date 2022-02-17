@@ -2,12 +2,15 @@
 
 ## Настраиваем разрешения в github
 
-- Запрещаем пуш в main. Settings -> Branches
+- Запрещаем пуш в main. Settings -> Branches.
 
 ## Добавление semantic-release в проект на github
 
+[Ссылка на библиотеку](https://github.com/semantic-release/semantic-release)
+
 Для чего:
 - Автоматическое создание тегов с корректной версией ПО
+- Коммиты, удовлетворяющие определенному формату
 
 ### Устанавливаем semantic-release
 
