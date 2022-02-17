@@ -11,6 +11,7 @@
 Для чего:
 - Автоматическое создание тегов с корректной версией ПО
 - Коммиты, удовлетворяющие определенному формату
+- Автоматическое создание Changelog на основе коммитов
 
 ### Устанавливаем semantic-release
 
@@ -105,4 +106,21 @@ npx husky add .husky/commit-msg 'npx --no -- commitlint --edit "$1"'
 "scripts": {
   "prepare": "husky install"
 },
+```
+
+### Добавляем changelog файл и корректное формирование тегов
+
+```bash
+npm install @semantic-release/changelog -D
+npm install @semantic-release/git -D
+```
+
+- Модифицируем commitlint.config.ts, чтобы бот мог добавлять коммиты
+- Придется убрать защиту от пуша на ветку, чтобы также бот мог пушить
+- Изменяем .releaserc.json, указываем файл куда сохранять информацию о тегах
+
+```ts
+rules: {
+  'body-max-line-length': [0, 'always', Infinity]
+}
 ```
