@@ -2,7 +2,7 @@
 
 ## Настраиваем разрешения в github
 
-- Запрещаем пуш в main. Settings -> Branches.
+- Запрещаем пуш в main. Settings -> Branches
 
 ## Добавление semantic-release в проект на github
 
@@ -84,7 +84,7 @@ npm i cz-conventional-changelog --save-dev
 }
 ```
 
-Таким образом при запуске npm run commit будет генерироваться корректный коммит.
+Таким образом при запуске npm run commit будет генерироваться корректный коммит
 
 ### Добавляем линтер для коммитов
 
