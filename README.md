@@ -79,3 +79,12 @@ npm i cz-conventional-changelog --save-dev
 ```
 
 Таким образом при запуске npm run commit будет генерироваться корректный коммит.
+
+## Добавляем линтер для коммитов
+
+- Устанавливаем нужные пакеты
+
+```bash
+npm install --save-dev @commitlint/{cli,config-conventional}
+npm install husky --save-dev
+```
