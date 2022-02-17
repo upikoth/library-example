@@ -50,3 +50,32 @@ jobs:
 В результате при каждом пуше в ветку master будет создаваться тег в репозитории github с соответстующей версией приложения.
 
 Для корректной работы библиотеки все коммиты должны быть оформлены в строгом соответствии с [этим документом](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-format).
+
+## Добавляем генерацию корректных коммитов
+
+- Устанавливаем необходимые программы
+
+```bash
+npm install --save-dev commitizen
+npm i cz-conventional-changelog --save-dev
+```
+
+- Модифицируем package.json
+
+```json
+{
+  "scripts": {
+  	...
+    "commit": "cz",
+  	...
+  },
+  ...
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}
+```
+
+Таким образом при запуске npm run commit будет генерироваться корректный коммит.
