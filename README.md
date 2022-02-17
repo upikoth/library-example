@@ -1,5 +1,8 @@
 # Добавление semantic-release в проект на github
 
+Для чего:
+- Автоматическое создание тегов с корректной версией ПО
+
 ## Устанавливаем semantic-release
 
 - npm install -g semantic-release-cli
