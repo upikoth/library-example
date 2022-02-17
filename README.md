@@ -94,6 +94,6 @@ npx husky add .husky/commit-msg 'npx --no -- commitlint --edit "$1"'
 
 ```json
 "scripts": {
-	"prepare": "husky install"
+  "prepare": "husky install"
 },
 ```
