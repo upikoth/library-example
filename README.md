@@ -2,7 +2,7 @@
 
 ## Настраиваем разрешения в github
 
-- Запрещаем пуш в main
+- Запрещаем пуш в main. Settings -> Branches.
 
 ## Добавление semantic-release в проект на github
 
@@ -36,7 +36,7 @@ name: Release package
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   release:
@@ -53,7 +53,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
 
-В результате при каждом пуше в ветку master будет создаваться тег в репозитории github с соответстующей версией приложения.
+В результате при каждом пуше в ветку main будет создаваться тег в репозитории github с соответстующей версией приложения.
 
 Для корректной работы библиотеки все коммиты должны быть оформлены в строгом соответствии с [этим документом](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-format).
 
