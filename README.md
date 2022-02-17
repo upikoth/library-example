@@ -1,14 +1,20 @@
-# Добавление semantic-release в проект на github
+# Пример огранизации библиотеки
+
+## Настраиваем разрешения в github
+
+- Запрещаем пуш в main
+
+## Добавление semantic-release в проект на github
 
 Для чего:
 - Автоматическое создание тегов с корректной версией ПО
 
-## Устанавливаем semantic-release
+### Устанавливаем semantic-release
 
 - npm install -g semantic-release-cli
 - semantic-release-cli setup
 
-## Убираем деплой на npm
+### Убираем деплой на npm
 
 - добавляем файл .releaserc.json
 ```json
@@ -21,7 +27,7 @@
 }
 ```
 
-## Настраиваем ci через github actions
+### Настраиваем ci через github actions
 
 - Добавляем файл .github/workflows/release.yml
 
@@ -51,7 +57,7 @@ jobs:
 
 Для корректной работы библиотеки все коммиты должны быть оформлены в строгом соответствии с [этим документом](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-format).
 
-## Добавляем генерацию корректных коммитов
+### Добавляем генерацию корректных коммитов
 
 - Устанавливаем необходимые программы
 
@@ -77,7 +83,7 @@ npm i cz-conventional-changelog --save-dev
 
 Таким образом при запуске npm run commit будет генерироваться корректный коммит.
 
-## Добавляем линтер для коммитов
+### Добавляем линтер для коммитов
 
 - Устанавливаем нужные пакеты
 
