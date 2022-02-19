@@ -5,7 +5,8 @@
     "removeComments": true,
     "preserveConstEnums": true,
     "outFile": "dist/index.js",
-    "sourceMap": false
+    "sourceMap": false,
+		"esModuleInterop": true
   },
   "files": ["src/index.ts"],
 }
