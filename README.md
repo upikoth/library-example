@@ -1,9 +1,5 @@
 # Пример огранизации библиотеки
 
-## Настраиваем разрешения в github
-
-- Запрещаем пуш в main. Settings -> Branches
-
 ## Добавление semantic-release в проект на github
 
 [Ссылка на библиотеку](https://github.com/semantic-release/semantic-release)
@@ -130,3 +126,8 @@ rules: {
 
 - TypeScript
 - Eslint
+
+#### Eslint
+
+- добавляем библиотеку, конфиг, команду в package.json
+- добавляем вызов eslint в pre-commit hook
