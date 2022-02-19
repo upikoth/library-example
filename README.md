@@ -16,7 +16,7 @@
 - npm install -g semantic-release-cli
 - semantic-release-cli setup
 
-### Убираем деплой на npm
+### Убираем деплой на npm, если нужно
 
 - добавляем файл .releaserc.json
 ```json
