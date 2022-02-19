@@ -4,9 +4,9 @@ on:
     branches:
       - main
 
-jobs: [eslint, test]
+jobs:
   release:
-    needs: 
+    needs: [eslint, test]
     name: Release
     runs-on: ubuntu-latest
     steps:
