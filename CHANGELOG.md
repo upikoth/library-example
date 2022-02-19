@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/upikoth/library-example/compare/v1.4.1...v1.4.2) (2022-02-19)
+
+
+### Bug Fixes
+
+* fix release notes ([d122dd7](https://github.com/upikoth/library-example/commit/d122dd747af85eab3788a98e1936d32b2a08120c))
+
 ## [1.4.1](https://github.com/upikoth/library-example/compare/v1.4.0...v1.4.1) (2022-02-19)
 
 
