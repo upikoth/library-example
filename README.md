@@ -1,5 +1,7 @@
 # Пример огранизации библиотеки
 
+- Не ставим запрет пуша в main, так как бот не сможет пушить
+
 ## Добавление semantic-release в проект на github
 
 [Ссылка на библиотеку](https://github.com/semantic-release/semantic-release)
@@ -127,7 +129,23 @@ rules: {
 - TypeScript
 - Eslint
 
+
+#### TypeScript
+
 #### Eslint
 
 - добавляем библиотеку, конфиг, команду в package.json
 - добавляем вызов eslint в pre-commit hook
+- добавляем вызов eslint при пуше в репозиторий
+- запрещаем мерджить все ветки, которые не прошли eslint (Settings -> Branches -> Require status checks)
+
+### Тестирование
+
+- npm install --save-dev jest
+- npm i --save-dev @types/jest
+- npm i --save-dev ts-jest
+- добавляем скрипт в package.json
+- создаем jest.config.ts
+- "jest": true в eslintrc.json, чтобы линтер на глобальные переменки не ругался
+- добавляем провеку тестами в pre-push hook
+- добавляем проверку в ci
