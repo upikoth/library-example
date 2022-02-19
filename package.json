@@ -7,6 +7,7 @@
     "commit": "cz",
     "build": "tsc",
     "semantic-release": "semantic-release",
+		"eslint": "eslint . --ext .js,.ts",
     "prepare": "husky install"
   },
   "author": "Ivan Demin",
