@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/upikoth/library-example/compare/v1.4.0...v1.4.1) (2022-02-19)
+
+
+### Bug Fixes
+
+* change commitlint settings ([dd5ac26](https://github.com/upikoth/library-example/commit/dd5ac262dbb8f5c21ac1ed59123462891939312e))
+
 # [1.4.0](https://github.com/upikoth/library-example/compare/v1.3.1...v1.4.0) (2022-02-17)
 
 
