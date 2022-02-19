@@ -115,13 +115,5 @@ npm install @semantic-release/changelog -D
 npm install @semantic-release/git -D
 ```
 
-- Модифицируем commitlint.config.ts, чтобы бот мог добавлять коммиты
-
-```ts
-rules: {
-  'body-max-line-length': [0, 'always', Infinity]
-}
-```
-
 - Придется убрать защиту от пуша на ветку, чтобы также бот мог пушить
-- Изменяем .releaserc.json, указываем файл куда сохранять информацию о тегах
+- Изменяем .releaserc.json, указываем файл куда сохранять информацию о тегах и содержиние коммита
