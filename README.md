@@ -131,3 +131,5 @@ rules: {
 
 - добавляем библиотеку, конфиг, команду в package.json
 - добавляем вызов eslint в pre-commit hook
+- добавляем вызов eslint при пуше в репозиторий
+- запрещаем мерджить все ветки, которые не прошли eslint (Settings -> Branches -> Require status checks)
