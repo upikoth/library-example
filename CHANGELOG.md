@@ -1,3 +1,10 @@
+## [1.4.5](https://github.com/upikoth/library-example/compare/v1.4.4...v1.4.5) (2022-02-19)
+
+
+### Bug Fixes
+
+* update workflow ([020f629](https://github.com/upikoth/library-example/commit/020f629a1a32db6486743fdac9d5d90f943ebda5))
+
 ## [1.4.4](https://github.com/upikoth/library-example/compare/v1.4.3...v1.4.4) (2022-02-19)
 
 
