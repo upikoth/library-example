@@ -1,3 +1,12 @@
+## [1.4.4](https://github.com/upikoth/library-example/compare/v1.4.3...v1.4.4) (2022-02-19)
+
+
+### Bug Fixes
+
+* fix jobs ([7ad877d](https://github.com/upikoth/library-example/commit/7ad877d9624702dc61af20b9833dc7f3c2f04197))
+* fix release workflow ([e148055](https://github.com/upikoth/library-example/commit/e14805594b07232faf82bd4b244653f65a0dfb10))
+* order of jobs ([e01d83e](https://github.com/upikoth/library-example/commit/e01d83e9c8ed39eb7ec16684f0de68bf533f92ea))
+
 ## [1.4.3](https://github.com/upikoth/library-example/compare/v1.4.2...v1.4.3) (2022-02-19)
 
 
