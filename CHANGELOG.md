@@ -1,3 +1,10 @@
+## [1.4.6](https://github.com/upikoth/library-example/compare/v1.4.5...v1.4.6) (2022-02-20)
+
+
+### Bug Fixes
+
+* add npm publishing ([983ca00](https://github.com/upikoth/library-example/commit/983ca003694899cbe92a0f902d66250d1e46a17b))
+
 ## [1.4.5](https://github.com/upikoth/library-example/compare/v1.4.4...v1.4.5) (2022-02-19)
 
 
