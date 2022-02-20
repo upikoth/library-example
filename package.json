@@ -2,7 +2,8 @@
   "name": "@upikoth/library-example",
   "version": "0.0.0-development",
   "description": "Trying to play with semantic-release lib",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "commit": "cz",
     "build": "tsc",

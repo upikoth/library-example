@@ -4,9 +4,11 @@
     "noImplicitAny": true,
     "removeComments": true,
     "preserveConstEnums": true,
-    "outFile": "dist/index.js",
+    "outDir": "./dist",
     "sourceMap": false,
-		"esModuleInterop": true
+    "declaration": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true
   },
   "files": ["src/index.ts"],
 }
