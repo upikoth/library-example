@@ -1,6 +1,6 @@
 {
   "name": "library-example",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "Trying to play with semantic-release lib",
   "main": "index.js",
   "scripts": {
