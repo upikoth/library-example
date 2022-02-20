@@ -1,3 +1,10 @@
+## [1.4.7](https://github.com/upikoth/library-example/compare/v1.4.6...v1.4.7) (2022-02-20)
+
+
+### Bug Fixes
+
+* change package name, add scope ([8602699](https://github.com/upikoth/library-example/commit/8602699595ff976274068c82834008fab3007811))
+
 ## [1.4.6](https://github.com/upikoth/library-example/compare/v1.4.5...v1.4.6) (2022-02-20)
 
 
