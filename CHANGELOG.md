@@ -1,3 +1,10 @@
+## [1.4.8](https://github.com/upikoth/library-example/compare/v1.4.7...v1.4.8) (2022-02-20)
+
+
+### Bug Fixes
+
+* add build job ([47b5e71](https://github.com/upikoth/library-example/commit/47b5e713ffb29346e8b38ed90708729862e7a64e))
+
 ## [1.4.7](https://github.com/upikoth/library-example/compare/v1.4.6...v1.4.7) (2022-02-20)
 
 
