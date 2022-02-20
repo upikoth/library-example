@@ -1,3 +1,10 @@
+## [1.4.9](https://github.com/upikoth/library-example/compare/v1.4.8...v1.4.9) (2022-02-20)
+
+
+### Bug Fixes
+
+* add build as a part of release ([b418b44](https://github.com/upikoth/library-example/commit/b418b4404fb9845aba1eff127f71f17dec2a284a))
+
 ## [1.4.8](https://github.com/upikoth/library-example/compare/v1.4.7...v1.4.8) (2022-02-20)
 
 
