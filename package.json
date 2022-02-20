@@ -39,5 +39,9 @@
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/upikoth/library-example/issues"
+  },
+  "homepage": "https://github.com/upikoth/library-example#readme"
 }
