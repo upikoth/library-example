@@ -27,8 +27,8 @@ jobs:
       - run: npm ci
       - run: npm run test
 
-  build:
-    name: Build
+  release:
+    name: Release
     needs: [eslint, test]
     runs-on: ubuntu-latest
     steps:
@@ -38,17 +38,6 @@ jobs:
           node-version: "16.x"
       - run: npm ci
       - run: npm run build
-
-  release:
-    name: Release
-    needs: [build]
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: "16.x"
-      - run: npm ci
       - run: npm run semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
